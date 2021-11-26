@@ -59,7 +59,7 @@ h1, h2, h3{
 }
 
 #header{
-    width: 50%;
+    width: 65%;
     height: 50%;
     overflow: auto;
     margin: auto;
@@ -72,7 +72,7 @@ h1, h2, h3{
 }
 
 #content{
-    width: 50%;
+    width: 65%;
     height: 50%;
     overflow: auto;
     margin: auto;
@@ -83,7 +83,7 @@ h1, h2, h3{
 }
 
 #footer{
-    width: 50%;
+    width: 65%;
     height: 50%;
     overflow: auto;
     margin: auto;
@@ -96,7 +96,7 @@ h1, h2, h3{
 
 #pages{
     font-size: 75%;
-    width: 50%;
+    width: 65%;
     height: 50%;
     overflow: auto;
     margin: auto;
