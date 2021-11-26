@@ -21,15 +21,15 @@ h1, h2, h3{
 }
 
 .icon img{
-    padding: 1%;
-    width: 16%;
+    padding: 2%;
+    width: 14%;
     border-radius: 50%;
     float: left;
 }
 
 #links img:hover{
-    transition: 1s;
-    background-color: #E86F68;
+    transition: 1.5s;
+    filter: invert(1)
 }
 
 #pages a:hover{
@@ -52,7 +52,8 @@ h1, h2, h3{
 
 #container{
     height: 100%;
-    width: 50%;
+    width: 100%;
+    max-width: 1000px;
     position: relative;
     margin: auto;
 }
@@ -98,7 +99,7 @@ h1, h2, h3{
     height: 50%;
     overflow: auto;
     margin: auto;
-    position: relative;
+    position: relative;t
     top: 0; left: 0; bottom: 0; right: 0;
     padding: 100px 10px 50px 10px;
     vertical-align: middle;
@@ -107,7 +108,7 @@ h1, h2, h3{
 
 #links{
     margin: 0;
-    padding: 20px 0px 100px 0px;
+    padding: 10px 0px 100px 0px;
 }
 
 #skills ul{
