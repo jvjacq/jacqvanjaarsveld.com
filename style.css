@@ -95,11 +95,12 @@ h1, h2, h3{
 }
 
 #pages{
+    font-size: 75%;
     width: 50%;
     height: 50%;
     overflow: auto;
     margin: auto;
-    position: relative;t
+    position: relative;
     top: 0; left: 0; bottom: 0; right: 0;
     padding: 100px 10px 50px 10px;
     vertical-align: middle;
