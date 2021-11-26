@@ -9,6 +9,7 @@ body{
 .profile img{
     width: 90%;
     border: 5px solid black;
+    float: left;
 }
 
 #content a{
@@ -21,8 +22,8 @@ h1, h2, h3{
 }
 
 .icon img{
-    padding: 2%;
-    width: 14%;
+    padding: 2.5%;
+    width: 13%;
     border-radius: 50%;
     float: left;
 }
@@ -47,7 +48,7 @@ h1, h2, h3{
 }
 
 #main{
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 #container{
@@ -109,7 +110,7 @@ h1, h2, h3{
 
 #links{
     margin: 0;
-    padding: 10px 0px 100px 0px;
+    padding: 5% 0% 18% 0%;
 }
 
 #skills ul{
