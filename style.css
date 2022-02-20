@@ -28,9 +28,9 @@ h1, h2, h3{
     float: left;
 }
 
-#links img:hover{
-    transition: 1.5s;
-    filter: invert(1)
+#links a:hover{
+    transition: 1s;
+    color: #EDEAE2;
 }
 
 #pages a:hover{
@@ -109,8 +109,9 @@ h1, h2, h3{
 }
 
 #links{
+    display: inline-block;
     margin: 0;
-    padding: 5% 0% 18% 0%;
+    padding: 5% 0% 3% 0%;
 }
 
 #skills ul{
