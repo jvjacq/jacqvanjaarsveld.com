@@ -27,6 +27,8 @@
 
 html{
     font-size: 62.5%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -40,8 +42,8 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    overflow-y: scroll;
     font-weight: 600;
+    max-width: 100%;
 }
 
 a{
@@ -117,10 +119,6 @@ body.light-theme{
 
 .section{
     padding-block: 5rem;
-}
-
-.screen-sm-hidden{
-    display: none;
 }
 
 /* Header */
@@ -320,13 +318,5 @@ img.profile{
 
     .screen-lg-hidden{
         display: none;
-    }
-
-    .screen-sm-hidden{
-        display: block;
-    }
-
-    .footer-container{
-        grid-template-columns: repeat(5, 1fr);
     }
 }
