@@ -266,6 +266,7 @@ body.light-theme{
 
 #home-text-three{
     font-family: monospace;
+    letter-spacing: -1px;
 }
 
 .home-text-one,
