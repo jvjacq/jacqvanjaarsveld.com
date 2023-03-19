@@ -21,9 +21,7 @@
     --typewriterSpeedThree: 4s;
     --typewriterCharactersOne: 13;
     --typewriterCharactersTwo: 22;
-    --typewriterCharactersThree: 55;
-    --typewriterTwoDelay: 4s;
-    --typewriterThreeDelay: 8s;
+    --typewriterTwoDelay: 3.5s;
 }
 
 /* Base styles */
