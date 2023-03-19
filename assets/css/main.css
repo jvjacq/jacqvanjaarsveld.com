@@ -16,6 +16,14 @@
     --font-size-large: 3rem;
     --margin: 3rem;
     --gap: 2rem;
+    --typewriterSpeedOne: 2s;
+    --typewriterSpeedTwo: 3s;
+    --typewriterSpeedThree: 5s;
+    --typewriterCharactersOne: 13;
+    --typewriterCharactersTwo: 22;
+    --typewriterCharactersThree: 55;
+    --typewriterTwoDelay: 4s;
+    --typewriterThreeDelay: 8s;
 }
 
 /* Base styles */
@@ -67,6 +75,10 @@ em{
 
 .underline{
     text-decoration-line: underline;
+}
+
+.accent{
+    color: var(--accent-color);
 }
 
 br.big-break{
@@ -245,6 +257,90 @@ body.light-theme{
     margin-bottom: var(--margin);
     transform-origin: left;
     scale: 125%;
+}
+
+/* Home Page */
+.home-text-one,
+.home-text-two {
+    font-size: xx-large;
+    font-weight: bold;
+}  
+
+.home-text-one,
+.home-text-two,
+.home-text-three{
+    position: relative;
+    position: relative;
+    width: max-content;
+}
+
+.home-text-one::before,
+.home-text-one::after,
+.home-text-two::before,
+.home-text-two::after,
+.home-text-three::before,
+.home-text-three::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.home-text-one::before {
+    background: var(--dark-color);
+    animation: typewriter var(--typewriterSpeedOne) steps(var(--typewriterCharactersOne)) 1s forwards;
+}
+
+.home-text-one::after {
+    width: 0.125em;
+    background: transparent;
+    animation: typewriter var(--typewriterSpeedOne) steps(var(--typewriterCharactersOne)) 1s forwards,
+        blink 750ms steps(var(--typewriterCharactersOne)) 5;
+}
+
+.home-text-two::before {
+    background: var(--dark-color);
+    animation: typewriter var(--typewriterSpeedTwo) steps(var(--typewriterCharactersTwo)) 1s forwards;
+    animation-delay: var(--typewriterTwoDelay);
+}
+  
+.home-text-two::after {
+    width: 0.125em;
+    background: transparent;
+    animation: typewriter var(--typewriterSpeedTwo) steps(var(--typewriterCharactersTwo)) 1s forwards,
+        blink 750ms steps(var(--typewriterCharactersTwo)) 5;
+    animation-delay: var(--typewriterTwoDelay);
+}
+
+.home-text-three::before {
+    background: var(--dark-color);
+    animation: typewriter var(--typewriterSpeedThree) steps(var(--typewriterCharactersThree)) 1s forwards;
+    animation-delay: var(--typewriterThreeDelay);
+}
+
+.home-text-three::after {
+    width: 0.125em;
+    background: transparent;
+    animation: typewriter var(--typewriterSpeedThree) steps(var(--typewriterCharactersThree)) 1s forwards,
+        blink 750ms steps(var(--typewriterCharactersThree)) 8;
+    animation-delay: var(--typewriterThreeDelay);
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    from {
+        background: black;
+    }
+    to {
+        background: transparent;
+    }
 }
 
 /* Blog post */
