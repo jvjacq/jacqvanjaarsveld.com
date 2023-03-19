@@ -49,3 +49,14 @@ themeToggleBtn.addEventListener('click', function () {
         localStorage.removeItem('currentTheme');
     }
 });
+
+// Typewriter
+setTimeout(function() {
+    var line = "// I'm a creator and software engineer based in Cape Town.";
+    var character = line.split("");
+    var element = document.getElementById('home-text-three');
+    (function animate() {
+        character.length > 0 ? element.innerHTML += character.shift() : clearTimeout(running);
+        var running = setTimeout(animate, 40);
+    })();
+}, 7000);
