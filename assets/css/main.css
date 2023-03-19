@@ -16,9 +16,9 @@
     --font-size-large: 3rem;
     --margin: 3rem;
     --gap: 2rem;
-    --typewriterSpeedOne: 2s;
-    --typewriterSpeedTwo: 3s;
-    --typewriterSpeedThree: 5s;
+    --typewriterSpeedOne: 1s;
+    --typewriterSpeedTwo: 1.5s;
+    --typewriterSpeedThree: 4s;
     --typewriterCharactersOne: 13;
     --typewriterCharactersTwo: 22;
     --typewriterCharactersThree: 55;
@@ -336,7 +336,7 @@ body.light-theme{
 
 @keyframes blink {
     from {
-        background: black;
+        background: var(--light-color);
     }
     to {
         background: transparent;
