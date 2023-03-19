@@ -59,4 +59,4 @@ setTimeout(function() {
         character.length > 0 ? element.innerHTML += character.shift() : clearTimeout(running);
         var running = setTimeout(animate, 40);
     })();
-}, 7000);
+}, 5500);

@@ -21,7 +21,7 @@
     --typewriterSpeedThree: 4s;
     --typewriterCharactersOne: 13;
     --typewriterCharactersTwo: 22;
-    --typewriterTwoDelay: 3.5s;
+    --typewriterTwoDelay: 3s;
 }
 
 /* Base styles */
@@ -295,7 +295,7 @@ body.light-theme{
     width: 0.125em;
     background: transparent;
     animation: typewriter var(--typewriterSpeedOne) steps(var(--typewriterCharactersOne)) 1s forwards,
-        blink 750ms steps(var(--typewriterCharactersOne)) 5;
+        blink 750ms steps(var(--typewriterCharactersOne)) 4;
 }
 
 .home-text-two::before{
@@ -308,7 +308,7 @@ body.light-theme{
     width: 0.125em;
     background: transparent;
     animation: typewriter var(--typewriterSpeedTwo) steps(var(--typewriterCharactersTwo)) 1s forwards,
-        blink 750ms steps(var(--typewriterCharactersTwo)) 4;
+        blink 750ms steps(var(--typewriterCharactersTwo)) 3;
     animation-delay: var(--typewriterTwoDelay);
 }
 
