@@ -1,1 +1,1 @@
-﻿# https://jvjacq.github.io/jacqvanjaarsveld.com/
+﻿# My first personal website.
