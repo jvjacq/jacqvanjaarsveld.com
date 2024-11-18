@@ -1,6 +1,6 @@
 # Archived Personal Website
 
-This repository contains the code for my first personal website, which I developed to enhance my front-end development skills using HTML, CSS, and JavaScript. Although this site is no longer in use, it served as a valuable project in my learning journey about web hosting, DNS records, and related topics.
+This repository contains the code for my [first personal website](https://jvjacq.github.io/website/), which I developed to enhance my front-end development skills using HTML, CSS, and JavaScript. Although this site is no longer in use, it served as a valuable project in my learning journey about web hosting, DNS records, and related topics.
 
 ## Features
 
